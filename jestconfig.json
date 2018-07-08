@@ -1,0 +1,19 @@
+/*
+this setup file is important file where we set the required configuration for the jest
+*/
+{
+  "setupFiles": [
+    "./jestsetup.js"
+  ],
+  "snapshotSerializers": [
+    "./node_modules/enzyme-to-json/serializer"
+  ],
+  "moduleNameMapper": {
+    "\\.(svg|jpg|png)$": "<rootDir>",
+    "\\.(css|scss|svg)$": "identity-obj-proxy"
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.js", "src/**/*.jsx"],
+  "coverageDirectory": "target/reports/coverage",
+  "coverageReporters": ["html", "lcov", "cobertura", "text-summary"]
+}

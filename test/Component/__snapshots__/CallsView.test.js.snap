@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render calls view 1`] = `
+<div>
+  <ul
+    key="1"
+  >
+    <li>
+      mom
+    </li>
+  </ul>
+  <ul
+    key="2"
+  >
+    <li>
+      grandMaa
+    </li>
+  </ul>
+  <ul
+    key="3"
+  >
+    <li>
+      papa
+    </li>
+  </ul>
+  <ul
+    key="4"
+  >
+    <li>
+      mama
+    </li>
+  </ul>
+  <ul
+    key="5"
+  >
+    <li>
+      mami
+    </li>
+  </ul>
+  <ul
+    key="6"
+  >
+    <li>
+      pavan
+    </li>
+  </ul>
+  <ul
+    key="7"
+  >
+    <li>
+      sagar
+    </li>
+  </ul>
+  <ul
+    key="8"
+  >
+    <li>
+      yashu
+    </li>
+  </ul>
+  <ul
+    key="9"
+  >
+    <li>
+      murali
+    </li>
+  </ul>
+  <ul
+    key="10"
+  >
+    <li>
+      keerthi
+    </li>
+  </ul>
+</div>
+`;
